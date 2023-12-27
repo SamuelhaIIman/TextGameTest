@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-inner">
+                <img src="" alt="Location" id="img">
+                <div class="container-action">
+                    <p class="options" id="options"></p>
+                    <input
+                        id="input"
+                        class="input"
+                        type="text"
+                        placeholder="Anna komento"
+                    />
+                    <button class="button" id="button">Vastaa</button>
+                    <p class="output" id="output"></p>
+                </div>
+            </div>
+            <div class="container-map">
+                <div class="map" id="map1">?</div>
+                <div class="map" id="map2">?</div>
+                <div class="map" id="map3">?</div>
+                <div class="map" id="map4">?</div>
+                <div class="map" id="map5">?</div>
+                <div class="map" id="map6">?</div>
+                <div class="map" id="map7">?</div>
+                <div class="map" id="map8">?</div>
+                <div class="map" id="map9">?</div>
+            </div>
+            <img src="images/reppu.png" id="reppu">
+            <div class="container-items">
+                <div class="item" id="item"><img src="" alt="" id="img-item1" class="items"></div>
+                <div class="item" id="item"><img src="" alt="" id="img-item2" class="items"></div>
+                <div class="item" id="item"><img src="" alt="" id="img-item3" class="items"></div>
+            </div>
+            <div class="container-item-names">
+                <div class="item-name"><p class="item-text" id="item-text1"></p></div>
+                <div class="item-name"><p class="item-text" id="item-text2"></p></div>
+                <div class="item-name"><p class="item-text" id="item-text3"></p></div>
+            </div>
+        </div>
+        <div class="ohjeet">
+            <button id="ohje-nappi" onclick="ohjeet()">Ohjeet</button>
+            <p id="ohje-teksti">
+                1: Hae kivi 7 ruudusta.<br>
+                2: Vie kivi 2 ruutuun, jossa pudotat sen mies ojentaa huilun sinulle. Poimi se!<br>
+                3: Vie huilu 9 ruutuun soita musiikkia. Miekka ilmestyy. Poimi se!<br>
+                4: Kohtaa lohikäärme 4 ruudussa, jossa tapat lohikäärmen. Lohikäärme pudottaa avaimen. Poimi se!<br>
+                5: Vie avain ruutuun 6. Käytä avainta porttiin ja voitat pelin.<br>
+            </p>
+        </div>  
+        <img src="images/voitto.jpg" id="end-screen">
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
